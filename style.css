@@ -6,7 +6,7 @@ body {
 
 span{
 	font-size: 14px;
-	color: #000;
+	color: #060;
 	transition: 0.3s;
 }
 
@@ -39,12 +39,12 @@ a:hover {
 
 ::-moz-selection {
 	color: white; 
-	background: #1A6DBB;
+	background: #F5F5DC;
 }
 
 ::selection {
 	color: white; 
-	background: #1A6DBB;
+	background: #F5F5DC;
 }
 
 .content {
