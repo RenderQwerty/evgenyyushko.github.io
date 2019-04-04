@@ -33,18 +33,18 @@ a {
 }
 
 a:hover {
-	color: #FFFFF0;
+	color: #1A6DBB;
 	transition: 0.3s;
 }
 
 ::-moz-selection {
 	color: white; 
-	background: #F5F5DC;
+	background: #1A6DBB;
 }
 
 ::selection {
 	color: white; 
-	background: #F5F5DC;
+	background: #1A6DBB;
 }
 
 .content {
