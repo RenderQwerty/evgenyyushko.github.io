@@ -11,8 +11,8 @@ span{
 }
 
 img{
-	width: 150px;
-	border-radius: 0px;
+	width: 100px;
+	border-radius: 95px;
 	margin: 10px 15px 0 0;
 }
 
@@ -32,69 +32,7 @@ a {
 	transition: 0.3s;
 }
 
-a:hover {
-	color: #1A6DBB;
-	transition: 0.3s;
-}
-
-::-moz-selection {
-	color: white; 
-	background: #1A6DBB;
-}
-
-::selection {
-	color: white; 
-	background: #1A6DBB;
-}
-
 .content {
 	max-width: 600px;
 	margin: 0 auto;
-}
-
-.intro {
-	margin: 150px 0 90px 0;
-	text-align: center;
-}
-
-.intro span {
-	margin-bottom: 10px;
-	font-size: 22px;
-	line-height: 40px;
-}
-
-.intro span.highlight {
-	background-color: #333;
-	color: white;
-}
-
-.intro span.highlight-red {
-	background-color: darkred;
-	color: white;
-	transition: 0.3s;
-}
-
-.intro span.highlight-red:hover {
-	background-color: red;
-	color: white;
-	transition: 0.3s;
-}
-
-@media (max-width: 360px) {
-	.intro {
-		margin: 50px 0 50px 0;
-	}
-	
-	.intro span {
-		font-size: 18px;
-		line-height: 28px;
-	}
-	
-	img{
-		display: none;
-	}
-	
-	table {
-		float: none;
-	}
 }
